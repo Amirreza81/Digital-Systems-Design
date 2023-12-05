@@ -1,0 +1,11 @@
+{E:/SUT/Term 6/DSD/Tamrin/2/RippleCarryAdder.v} {1 {vlog -work work -vopt -stats=none {E:/SUT/Term 6/DSD/Tamrin/2/RippleCarryAdder.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RCA
+-- Compiling module Full_Adder
+-- Compiling module Half_Adder
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}}

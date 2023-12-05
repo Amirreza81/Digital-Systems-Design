@@ -1,0 +1,23 @@
+$date
+	Mon May 01 18:48:15 2023
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ns
+$end
+$scope module Top $end
+$var wire 1 ! cout $end
+$upscope $end
+$enddefinitions $end
+#0
+x!
+#11
+1!
+#30
+0!
+#52
+1!
+#77
+0!

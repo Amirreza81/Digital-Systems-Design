@@ -1,0 +1,5 @@
+a = 4'hd
+b = 4'h2
+cin = 1'h1
+sum = 4'h0
+cout = 1'h0
