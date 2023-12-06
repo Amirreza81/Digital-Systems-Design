@@ -1,0 +1,9 @@
+{E:/SUT/Term 6/DSD/Tamrin/3/HW3_99101087/HW3.v} {1 {vlog -work work -vopt -stats=none {E:/SUT/Term 6/DSD/Tamrin/3/HW3_99101087/HW3.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Memory
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}}
