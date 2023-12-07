@@ -1,0 +1,402 @@
+$date
+	Sat Jun 03 12:40:10 2023
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ns
+$end
+
+$scope module TestBench $end
+$var reg 1 ! clock $end
+$var reg 16 " data [15:0] $end
+$var reg 3 # control [2:0] $end
+$var wire 1 $ result [15] $end
+$var wire 1 % result [14] $end
+$var wire 1 & result [13] $end
+$var wire 1 ' result [12] $end
+$var wire 1 ( result [11] $end
+$var wire 1 ) result [10] $end
+$var wire 1 * result [9] $end
+$var wire 1 + result [8] $end
+$var wire 1 , result [7] $end
+$var wire 1 - result [6] $end
+$var wire 1 . result [5] $end
+$var wire 1 / result [4] $end
+$var wire 1 0 result [3] $end
+$var wire 1 1 result [2] $end
+$var wire 1 2 result [1] $end
+$var wire 1 3 result [0] $end
+$var wire 1 4 c $end
+$var wire 1 5 z $end
+$var wire 1 6 v $end
+$var wire 1 7 s $end
+
+$scope module alu $end
+$var parameter 32 8 width $end
+$var wire 1 9 clock $end
+$var wire 1 : data [15] $end
+$var wire 1 ; data [14] $end
+$var wire 1 < data [13] $end
+$var wire 1 = data [12] $end
+$var wire 1 > data [11] $end
+$var wire 1 ? data [10] $end
+$var wire 1 @ data [9] $end
+$var wire 1 A data [8] $end
+$var wire 1 B data [7] $end
+$var wire 1 C data [6] $end
+$var wire 1 D data [5] $end
+$var wire 1 E data [4] $end
+$var wire 1 F data [3] $end
+$var wire 1 G data [2] $end
+$var wire 1 H data [1] $end
+$var wire 1 I data [0] $end
+$var wire 1 J control [2] $end
+$var wire 1 K control [1] $end
+$var wire 1 L control [0] $end
+$var reg 16 M Acc [15:0] $end
+$var reg 1 N carry $end
+$var wire 1 5 zero $end
+$var reg 1 O overf $end
+$var wire 1 7 sign $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+bx "
+b1 #
+bx M
+xN
+xO
+b10000 8
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x4
+x5
+x6
+x7
+1L
+0K
+0J
+xI
+xH
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+09
+$end
+#8
+1!
+19
+b0 M
+0N
+0O
+07
+15
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+04
+06
+#16
+0!
+09
+#20
+b101 "
+b10 #
+0L
+1K
+1I
+0H
+1G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+#24
+1!
+19
+b101 M
+05
+13
+11
+#32
+0!
+09
+#40
+b0 #
+1!
+0K
+19
+#48
+0!
+09
+#56
+1!
+19
+#60
+b1000 "
+b10 #
+1K
+0I
+0G
+1F
+#64
+0!
+09
+#72
+1!
+19
+b1101 M
+10
+#80
+b100 "
+b11 #
+0!
+1L
+1G
+0F
+09
+#88
+1!
+19
+b1001 M
+01
+#96
+0!
+09
+#100
+b0 #
+0L
+0K
+#104
+1!
+19
+#112
+0!
+09
+#120
+b101 #
+1!
+1L
+1J
+19
+b1111111111110111 M
+17
+12
+11
+00
+1/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#128
+0!
+09
+#136
+1!
+19
+b1001 M
+07
+02
+01
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#140
+b110 #
+0L
+1K
+#144
+0!
+09
+#152
+1!
+19
+b1111111111110110 M
+17
+03
+12
+11
+00
+1/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#160
+b1111 "
+b111 #
+0!
+1L
+1I
+1H
+1F
+09
+#168
+1!
+19
+b1111111111111001 M
+13
+02
+01
+10
+#176
+0!
+09
+#180
+b0 #
+0L
+0K
+0J
+#184
+1!
+19
+#192
+0!
+09
+#200
+b1010101100110 "
+b100 #
+1!
+1J
+0I
+0F
+1D
+1C
+1A
+1?
+1=
+19
+b1010101100000 M
+07
+03
+00
+0/
+0,
+0*
+0(
+0&
+0%
+0$
+#208
+0!
+09
+#216
+1!
+19
+#220
+b1 #
+1L
+0J
+#224
+0!
+09
+#232
+1!
+19
+b0 M
+15
+0.
+0-
+0+
+0)
+0'
+#240
+b10111 "
+b10 #
+0!
+0L
+1K
+1I
+1E
+0D
+0C
+0A
+0?
+0=
+09
+#248
+1!
+19
+b10111 M
+05
+13
+12
+11
+1/
